@@ -1,0 +1,18 @@
+<!-- {{title}}
+<p>Learn {{course}} with me.</p>
+{{2*2}}
+
+<div>
+  <img src = "{{image}}">
+</div>
+<router-outlet></router-outlet>
+-->
+<!-- property binding -->
+<div>
+  <img [src] = "image">
+</div>
+
+<div>
+  <button (click) = "goBack()">Go Back</button>
+</div>
+<router-outlet></router-outlet>
